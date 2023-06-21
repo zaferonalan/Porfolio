@@ -1,0 +1,666 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #1A2B40;
+    list-style: none;
+}
+
+    /* Nav */
+.nav{
+    height: 700px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.parentMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 1rem;
+}
+span{
+    color: red;
+}
+.logo h3 a{
+    text-decoration: none;
+    color: white;
+}
+.parentelement{
+    display: flex;
+}
+
+.menu{
+    margin: 1rem;
+    display: flex;
+}
+.menu ul li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover{
+    padding: 5px;
+    color: black;
+    background-color: white;
+    transition: .5s;
+}
+
+.acilirmenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    z-index: 1;
+}
+.acilirmenu li {
+    display: block;
+    padding: 10px;
+}
+.acilirmenu li a {
+    display: block;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menuac {
+    display: inline-block;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+}
+.ikon{
+    margin-top: 1rem;
+    display: none;
+}
+.ikon i{
+    color: white;
+}
+
+
+    /* Header */
+
+header{
+    display: flex;
+    height: 90dvh;
+}
+.parentBox{
+    display: flex;
+    justify-content: space-between;
+}
+.leftBox{
+    width: 30%;
+    margin: auto;
+}
+.leftBox h1{
+    font-size: 30px;
+    color: white;
+}
+.leftBox p{
+    margin-top: 1rem;
+    font-size: 20px;
+    color: white;
+}
+.SocialMedia{
+    margin-top: 1rem;
+}
+.SocialMedia ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+.SocialMedia ul li a{
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+.rightBox{
+    width: 65%;
+    height: 450px;
+    object-fit: cover;
+}
+.rightBox img{
+    width: 100%;
+}
+
+
+    /* About */
+
+
+.About{
+    height: 100dvh;
+}
+.aboutParent{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(255, 254, 254, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.Title{
+    margin-top: 5rem;
+    color: white;
+}
+.leftAbout{
+    width: 20%;
+}
+.leftAbout img{
+    width: 100%;
+    object-fit: fill;
+}
+.rightAbout{
+    width: 70%;
+    margin: auto;
+    margin-right: 7rem;
+}
+.rightAbout p{
+    margin: 1rem 0 1rem 0 ;
+    font-size: larger;
+    color: white;
+}
+.rightAbout h1, h3{
+    color: white;
+}
+.aboutContent{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.contentAbout{
+    margin: 1rem;
+}
+
+    /*  !Service */
+
+.Service{
+    height: 100dvh;
+}
+.parentCard{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards{
+    /* background-color: rgba(19, 5, 5, 0.616); */
+    width: 25%;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+}
+.cards i{
+    font-size: 40px;
+    padding: 2rem;
+}
+.cards h3{
+    margin-bottom: 1rem;
+}
+
+    /* Skill */
+    
+
+.Skill{
+    height: 70dvh;
+}
+.parentSkill{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+
+}
+
+.Skills{
+    width: 500px;
+    margin: 60px;
+    padding: 20px;
+    color: white;
+}
+
+.Skills li{
+    margin: 20px 5px;
+    padding: 10px;
+}
+.bar{
+    background-color:#353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    box-shadow: 0 1px 3px  rgba(0, 0, 0, 0.12), 0 1px 3px  rgba(0, 0, 0, 0.12);
+    overflow: hidden; /* Taşan kısmı kırptık */
+}
+.bar:hover{
+    box-shadow: 0 14px 28px  rgba(0, 0, 0, 0.25), 0 10px 10px  rgba(0, 0, 0, 0.12);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background-color: white;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 80%;
+}
+.script{
+    width: 20%;
+}
+.csharp{
+    width: 70%;
+}
+.net{
+    width: 20%;
+}
+.sql{
+    width: 60%;
+}
+
+
+    /* Certificate */
+
+
+.Certificate{
+    height: 130dvh;
+    
+}
+.boxCertificate{
+    margin-top: 5rem;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+    padding: 1rem;
+}
+.ParentCerticate{
+    margin: 3rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.CardsCertificate{
+    width: 25%;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+}
+.CardsCertificate h3{
+    text-align: center;
+    padding: 1rem;
+}
+.CardsCertificate img{
+    width: 100%;
+}
+.CardsCertificate p{
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+
+
+    /* Contact */
+.Contact{
+    height: 110dvh;
+}
+
+.ContactParent{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+
+}
+.ContactBox{
+    width: 30%;
+    margin: 40px;
+    padding: 20px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+
+}
+.box{
+    margin: 40px;
+    padding: 20px;
+
+}
+.box label{
+    margin-top: 1rem;
+    size: 40px;
+    display: block;
+}
+.box input{
+    margin-top: 1rem;
+    width: 300px;
+    border-radius: 10px;
+    padding: 7px;
+    display: block;
+}
+.messagebox{
+    height: 200px;
+}
+
+.button input{
+    width: 30%;
+    padding: 10px;
+}
+
+.ContactContent{
+    width: 50%;
+    margin: 40px;
+    padding: 20px;
+}
+.box h1{
+    padding: 10px;
+}
+.box p{
+    margin-top: 1rem;
+}
+
+
+    /* Footer*/
+footer{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(255, 255, 255, 0.3) 0px 8px 16px -8px;
+    height: 30dvh;
+    margin-top: 5rem;
+    width: 100%;
+}
+.Parentfooter{
+    text-align: center;
+    padding: 5rem;
+    color: white;
+}
+.Parentfooter p{
+    margin-top: 1rem;
+}
+
+
+    /* !Nav-Mobil*/
+
+@media only screen and (max-width: 900px) 
+{
+    .menu{
+        display: none;
+    }
+    .ikon{
+        display: block;
+    }
+    .ikon:hover .acilirmenu {
+        display: block;
+    }
+    .acilirmenu
+    {
+        display: none;
+    }
+    
+}
+
+    /* !Header-Mobil */
+
+@media only screen and (max-width: 1200px) 
+{
+    .parentBox{
+        display: block;
+        justify-content: center;
+    }
+    .leftBox{
+        margin-top: 3rem;
+        width: 90%;
+    }
+    .rightBox{
+        margin: 3rem auto;
+        width: 100%;
+    }
+    .rightBox img{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) 
+{
+    header{
+        margin-top: 5rem;
+    }
+}
+
+/* !About-Mobil */
+
+@media only screen and (max-width: 1350px) 
+{
+    .aboutParent{
+        display: block;
+    }
+    .leftAbout{
+        margin: auto;
+    }
+    .rightAbout
+    {
+        margin-top: 2rem;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) 
+{
+    .leftAbout{
+        display: none;
+    }
+    .rightAbout
+    {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 850px) 
+{
+    .aboutContent{
+        display: block;
+    }
+    .aboutContentLeft{
+        display: block;
+        justify-content: space-around;
+    }
+    .aboutContentRight{
+        display: block;
+        justify-content:space-around;
+    }
+}
+
+
+    /* Service-Mobil */
+
+@media only screen and (max-width: 850px) 
+{
+    .parentCard{
+        display: block;
+    }
+    .cards{
+        margin: 2rem auto;
+        width: 60%;
+    }
+}
+
+
+@media only screen and (max-width: 450px) 
+{
+    .Service{
+        margin-top: 25rem;
+    }
+}
+
+
+    
+    /* Skill-Mobil*/
+
+
+@media only screen and (max-width: 855px) 
+{
+    .Skill{
+        margin-top: 130%;
+    }
+    .parentSkill{
+        display: inline;
+    }
+    .Skills{
+        margin: auto;
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) 
+{
+    .Skill{
+        margin-top: 200%;
+    }
+    .Skills{
+        margin: auto;
+        width: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 570px) 
+{
+    .Skill{
+        margin-top: 230%;
+    }
+    .Skills{
+        margin: auto;
+        width: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 540px) 
+{
+    .Skill{
+        margin-top: 300%;
+    }
+    .Skills{
+        margin: auto;
+        width: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) 
+{
+    .Skill{
+        margin-top: 430%;
+    }
+    .Skills{
+        margin: auto;
+        width: 250px;
+    }
+}
+
+    /* Certificate-Mobil */
+
+@media only screen and (max-width: 1450px) 
+{
+    .CardsCertificate{
+        width: 30%;
+    }
+}
+
+
+@media only screen and (max-width: 900px) 
+{
+    .CardsCertificate h3 {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 670px) 
+{
+    .Certificate{
+        margin-top: 15rem;
+    }
+    .CardsCertificate{
+        width: 100%;
+    }
+    .CardsCertificate p {
+        display: none;
+    }
+    .ParentCerticate{
+        display: block;
+    }
+    .CardsCertificate{
+        margin: 1rem auto;
+    }
+}
+
+
+
+    /* Contact-Mobil*/
+
+
+@media only screen and (max-width: 1550px) 
+{
+    .ContactBox{
+        width: 50%;
+    }
+    .ContactContent{
+        width: 60%;
+    }
+    .box{
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 1050px) 
+{
+    .ContactParent{
+        display: block;
+    }
+    .ContactBox{
+        width: 80%;
+        margin: auto;
+        box-shadow: none;
+    }
+    .ContactContent{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 670px) 
+{
+    .Contact{
+        margin-top: 120dvh;
+    }
+    .box input{
+        width: 200px;
+    }
+}
+
+
+    /* Footer-Mobil */
+
+@media only screen and (max-width: 750px) 
+{
+    footer{
+        margin-top: 30rem;
+    }
+}
+
+@media only screen and (max-width: 450px) 
+{
+    footer{
+        height: 50dvh;
+    }
+}
+
+
+
